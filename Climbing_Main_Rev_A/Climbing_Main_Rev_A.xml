@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\AaronN\Desktop\Personal\PersonalProjects\WearabkeRockClimbingTool\Climbing_Main_Rev_A\Climbing_Main_Rev_A.sch</source>
+    <date>12/7/2021 11:54:09 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Climbing_Main_Rev_A.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>BQ24232HARGTR</value>
+      <footprint>personal:QFN50P300X300X100-17N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/bq24232ha.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1635992762369&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq24232ha</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">296-49554-1-ND</field>
+      </fields>
+      <libsource lib="personal_chargers" part="BQ24232HARGTR" description="IC BATT CHG LI-ION 1CELL 16QFN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618399DF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">311-5.10KLRCT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="5.1k" description="RES 5.1K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618475DA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">311-5.10KLRCT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="5.1k" description="RES 5.1K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6184B057</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61851BE8</tstamp>
+    </comp>
+    <comp ref="CN3">
+      <value>0532610271</value>
+      <footprint>personal:MOLEX_53261-0271</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Part Number">WM7620CT-ND</field>
+        <field name="Type">PicoBlade</field>
+      </fields>
+      <libsource lib="personal_connectors" part="0532610271" description="PICOBLADE CONN HEADER SMD R/A 2POS 1.25MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618684CF</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>USB4110-GF-A_REVB</value>
+      <footprint>personal:GCT_USB4110-GF-A_REVB</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="Manufacturer">GCT</field>
+        <field name="Part Number">2073-USB4110-GF-A-1-ND</field>
+      </fields>
+      <libsource lib="personal_connectors" part="USB4110-GF-A_REVB" description="SMD USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186DD92</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">311-330LRCT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="330" description="RES 330 OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61855C10</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1043-1-ND</field>
+        <field name="Size">0402</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="0.1uF" description="CAP CER 0.1UF 25V X5R 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186673D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1085-1-ND</field>
+        <field name="Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="2.2uF" description="CAP CER 2.2UF 10V X5R 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186971F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1085-1-ND</field>
+        <field name="Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="2.2uF" description="CAP CER 2.2UF 10V X5R 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186C3B2</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1085-1-ND</field>
+        <field name="Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="2.2uF" description="CAP CER 2.2UF 10V X5R 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618769C6</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1.8k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT1K80CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="1.8k" description="RES 1.8K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6188A5FF</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-2893-1-ND</field>
+        <field name="Size">0805</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61897C1D</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-2893-1-ND</field>
+        <field name="Size">0805</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6189AF31</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-2893-1-ND</field>
+        <field name="Size">0805</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618A1688</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-2893-1-ND</field>
+        <field name="Size">0805</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618A34E2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT10K0CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="10k" description="RES 10K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618B8A1F</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT1K00CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="1k" description="RES 1K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619A42BC</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT390RCT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="390" description="RES 390 OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61977D2A</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS138BKW,115</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BSS138BKW.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">1727-1262-1-ND</field>
+      </fields>
+      <libsource lib="personal_fets" part="BSS138BKW,115" description="MOSFET N-CH 60V 320MA SOT323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61911A4D</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LTST-C19HE1WT</value>
+      <footprint>personal:LED_LTST-C19HE1WT</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Part Number">160-2162-1-ND</field>
+      </fields>
+      <libsource lib="personal_leds" part="LTST-C19HE1WT" description="LED RGB DIFFUSED CHIP SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6190D094</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT4K70CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="4.7k" description="RES 4.7K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618E87F7</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138BKW,115</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BSS138BKW.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">1727-1262-1-ND</field>
+      </fields>
+      <libsource lib="personal_fets" part="BSS138BKW,115" description="MOSFET N-CH 60V 320MA SOT323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618BFDB6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5528-3.3YMX-TR</value>
+      <footprint>personal:MIC5528-3.3YMX-TR</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5528-High-Performance-500mA-LDO-in-Thin-and-Extra-Thin-DFN-Packages-DS20005982B.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Part Number">576-4452-1-ND</field>
+      </fields>
+      <libsource lib="personal_ldo" part="MIC5528-3.3YMX-TR" description="IC REG LINEAR 3.3V 500MA 6XTDFN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A0E35A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1085-1-ND</field>
+        <field name="Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="2.2uF" description="CAP CER 2.2UF 10V X5R 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A10907</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1085-1-ND</field>
+        <field name="Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="2.2uF" description="CAP CER 2.2UF 10V X5R 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A1C7E3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1043-1-ND</field>
+        <field name="Size">0402</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="0.1uF" description="CAP CER 0.1UF 25V X5R 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A2DF02</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-2893-1-ND</field>
+        <field name="Size">0805</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A787B6</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NX3008PBK,215</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/NX3008PBK.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">1727-1281-1-ND</field>
+      </fields>
+      <libsource lib="personal_fets" part="NX3008PBK,215" description="MOSFET P-CH 30V 230MA TO236AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619B90A5</tstamp>
+    </comp>
+    <comp ref="CN2">
+      <value>U.FL-R-SMT(10)</value>
+      <footprint>personal:HRS_U.FL-R-SMT(10)</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Hirose Electric Co Ltd</field>
+        <field name="Part Number">H9161CT-ND</field>
+      </fields>
+      <libsource lib="personal_connectors" part="U.FL-R-SMT(10)" description="CONN U.FL RCPT STR 50 OHM SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B363DC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1043-1-ND</field>
+        <field name="Size">0402</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="0.1uF" description="CAP CER 0.1UF 25V X5R 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B0344A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-2893-1-ND</field>
+        <field name="Size">0805</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AFDE19</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>CD-PA1616S</value>
+      <footprint>personal:PA1616S</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/1059/CD+PA1616D+Datasheet+v.05.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries LLC</field>
+        <field name="Part Number">1528-5186-ND</field>
+      </fields>
+      <libsource lib="personal" part="CD-PA1616S" description="Adafruit Ultimate GPS Module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6182AB48</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>NX3008PBK,215</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/NX3008PBK.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">1727-1281-1-ND</field>
+      </fields>
+      <libsource lib="personal_fets" part="NX3008PBK,215" description="MOSFET P-CH 30V 230MA TO236AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AA5488</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402ZT0R00CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="0" description="RES 0 OHM JUMPER 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BE0BFD</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402ZT0R00CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="0" description="RES 0 OHM JUMPER 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BEBFF7</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-2893-1-ND</field>
+        <field name="Size">0805</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE5138</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1043-1-ND</field>
+        <field name="Size">0402</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="0.1uF" description="CAP CER 0.1UF 25V X5R 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE6468</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>NX3008PBK,215</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/NX3008PBK.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">1727-1281-1-ND</field>
+      </fields>
+      <libsource lib="personal_fets" part="NX3008PBK,215" description="MOSFET P-CH 30V 230MA TO236AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B3180B</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1085-1-ND</field>
+        <field name="Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="2.2uF" description="CAP CER 2.2UF 10V X5R 0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B372EC</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1043-1-ND</field>
+        <field name="Size">0402</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="personal_capacitors" part="0.1uF" description="CAP CER 0.1UF 25V X5R 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B37B7D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402ZT0R00CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="0" description="RES 0 OHM JUMPER 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C226B3</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402ZT0R00CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="0" description="RES 0 OHM JUMPER 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C257AA</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT4K70CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="4.7k" description="RES 4.7K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C961E3</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT4K70CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="4.7k" description="RES 4.7K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61CD4841</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>Teensy-LC</value>
+      <footprint>personal:Teensy_LC</footprint>
+      <datasheet>https://www.pjrc.com/teensy/teensyLC.html</datasheet>
+      <fields>
+        <field name="Manufacturer">SparkFun Electronics</field>
+        <field name="Part Number">1568-1233-ND</field>
+      </fields>
+      <libsource lib="teensy" part="Teensy-LC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B36856</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>FSM2JSMAA</value>
+      <footprint>personal:SW_2-1437565-8</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</datasheet>
+      <fields>
+        <field name="Manufacturer">FSM2JSMAA</field>
+        <field name="Part Number">450-3355-ND</field>
+      </fields>
+      <libsource lib="personal_switch" part="FSM2JSMAA" description="SMD Momentary PushButton"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DD9B58</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT4K70CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="4.7k" description="RES 4.7K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E0A7ED</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>FSM2JSMAA</value>
+      <footprint>personal:SW_2-1437565-8</footprint>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</datasheet>
+      <fields>
+        <field name="Manufacturer">FSM2JSMAA</field>
+        <field name="Part Number">450-3355-ND</field>
+      </fields>
+      <libsource lib="personal_switch" part="FSM2JSMAA" description="SMD Momentary PushButton"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E65D74</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT4K70CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="4.7k" description="RES 4.7K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E65D89</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>PB400EEQR1BLK</value>
+      <footprint>personal:PB400EEQR1BLK</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/234/PB400.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Part Number">EG5547-ND</field>
+      </fields>
+      <libsource lib="personal_connectors" part="PB400EEQR1BLK" description="Pushbutton Switch DPST Standard Through Hole, Right Angle"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EBE83A</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT4K70CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="4.7k" description="RES 4.7K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61ECB801</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT4K70CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="4.7k" description="RES 4.7K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6228F0FA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT4K70CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="4.7k" description="RES 4.7K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622F419E</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT4K70CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <libsource lib="personal_resistors" part="4.7k" description="RES 4.7K OHM 1% 1/16W 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623298A3</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>VUSB</value>
+      <footprint>personal:CurrentTestPoint</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="personal" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626133EF</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>4.5V</value>
+      <footprint>personal:CurrentTestPoint</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="personal" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6261450F</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>3V3</value>
+      <footprint>personal:CurrentTestPoint</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="personal" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62615FEF</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>GND</value>
+      <footprint>personal:CurrentTestPoint</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="personal" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626173AC</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>VBAT</value>
+      <footprint>personal:CurrentTestPoint</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="personal" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62618847</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>GPIO_23</value>
+      <footprint>personal:CurrentTestPoint</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="personal" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6261D362</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>GPIO_21</value>
+      <footprint>personal:CurrentTestPoint</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="personal" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62620C37</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="CD-PA1616S">
+      <description>Adafruit Ultimate GPS Module</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD-PA1616S</field>
+        <field name="Footprint">personal:PA1616S</field>
+        <field name="Manufacturer">Adafruit Industries LLC</field>
+        <field name="Part Number">1528-5186-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="~RESET~" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="VBACKUP" type="power_in"/>
+        <pin num="5" name="3DFIX" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="TX" type="passive"/>
+        <pin num="10" name="RX" type="passive"/>
+        <pin num="11" name="EX_ANT" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="1PPS" type="passive"/>
+        <pin num="14" name="I2C_SCL" type="passive"/>
+        <pin num="15" name="I2C_SDA" type="passive"/>
+        <pin num="16" name="NC" type="passive"/>
+        <pin num="17" name="NC" type="passive"/>
+        <pin num="18" name="NC" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint">personal:CurrentTestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_capacitors" part="0.1uF">
+      <description>CAP CER 0.1UF 25V X5R 0402</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1043-1-ND</field>
+        <field name="Size">0402</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_capacitors" part="10uF">
+      <description>CAP CER 10UF 16V X5R 0805</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-2893-1-ND</field>
+        <field name="Size">0805</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_capacitors" part="2.2uF">
+      <description>CAP CER 2.2UF 10V X5R 0603</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2.2uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Part Number">1276-1085-1-ND</field>
+        <field name="Size">0603</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_chargers" part="BQ24232HARGTR">
+      <description>IC BATT CHG LI-ION 1CELL 16QFN</description>
+      <docs>https://www.ti.com/lit/ds/symlink/bq24232ha.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1635992762369&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq24232ha</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24232HARGTR</field>
+        <field name="Footprint">personal:QFN50P300X300X100-17N</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">296-49554-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="input"/>
+        <pin num="2" name="BAT" type="BiDi"/>
+        <pin num="3" name="BAT" type="BiDi"/>
+        <pin num="4" name="~CE" type="input"/>
+        <pin num="5" name="EN2" type="input"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="~PGOOD" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="~CHG" type="output"/>
+        <pin num="10" name="OUT" type="output"/>
+        <pin num="11" name="OUT" type="output"/>
+        <pin num="12" name="ILIM" type="input"/>
+        <pin num="13" name="IN" type="input"/>
+        <pin num="14" name="TMR" type="input"/>
+        <pin num="15" name="ITERM" type="input"/>
+        <pin num="16" name="ISET" type="BiDi"/>
+        <pin num="17" name="THERMALPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_connectors" part="0532610271">
+      <description>PICOBLADE CONN HEADER SMD R/A 2POS 1.25MM</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">0532610271</field>
+        <field name="Footprint">personal:MOLEX_53261-0271</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Part Number">WM7620CT-ND</field>
+        <field name="Type">PicoBlade</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="P1" name="TAB" type="passive"/>
+        <pin num="P2" name="TAB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_connectors" part="PB400EEQR1BLK">
+      <description>Pushbutton Switch DPST Standard Through Hole, Right Angle</description>
+      <docs>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/234/PB400.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PB400EEQR1BLK</field>
+        <field name="Footprint">personal:PB400EEQR1BLK</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Part Number">EG5547-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_connectors" part="U.FL-R-SMT(10)">
+      <description>CONN U.FL RCPT STR 50 OHM SMD</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf</docs>
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">U.FL-R-SMT(10)</field>
+        <field name="Footprint">personal:HRS_U.FL-R-SMT(10)</field>
+        <field name="Manufacturer">Hirose Electric Co Ltd</field>
+        <field name="Part Number">H9161CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_connectors" part="USB4110-GF-A_REVB">
+      <description>SMD USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">USB4110-GF-A_REVB</field>
+        <field name="Footprint">personal:GCT_USB4110-GF-A_REVB</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="Part Number">2073-USB4110-GF-A-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A1/B12" name="GND" type="passive"/>
+        <pin num="A4/B9" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B1/A12" name="GND" type="passive"/>
+        <pin num="B4/A9" name="VBUS" type="passive"/>
+        <pin num="S" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_fets" part="BSS138BKW,115">
+      <description>MOSFET N-CH 60V 320MA SOT323</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BSS138BKW.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138BKW,115</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">1727-1262-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_fets" part="NX3008PBK,215">
+      <description>MOSFET P-CH 30V 230MA TO236AB</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/NX3008PBK.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NX3008PBK,215</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Part Number">1727-1281-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_ldo" part="MIC5528-3.3YMX-TR">
+      <description>IC REG LINEAR 3.3V 500MA 6XTDFN</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5528-High-Performance-500mA-LDO-in-Thin-and-Extra-Thin-DFN-Packages-DS20005982B.pdf</docs>
+      <footprints>
+        <fp>XTDFN6_1P2X1P2_MCH</fp>
+        <fp>XTDFN6_1P2X1P2_MCH-M</fp>
+        <fp>XTDFN6_1P2X1P2_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5528-3.3YMX-TR</field>
+        <field name="Footprint">personal:MIC5528-3.3YMX-TR</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Part Number">576-4452-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="output"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="VIN" type="input"/>
+        <pin num="7" name="EPAD" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_leds" part="LTST-C19HE1WT">
+      <description>LED RGB DIFFUSED CHIP SMD</description>
+      <docs>https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LTST-C19HE1WT</field>
+        <field name="Footprint">personal:LED_LTST-C19HE1WT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Part Number">160-2162-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="GK" type="passive"/>
+        <pin num="3" name="BK" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_resistors" part="0">
+      <description>RES 0 OHM JUMPER 1/16W 0402</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402ZT0R00CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_resistors" part="1.8k">
+      <description>RES 1.8K OHM 1% 1/16W 0402</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1.8k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT1K80CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_resistors" part="10k">
+      <description>RES 10K OHM 1% 1/16W 0402</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT10K0CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_resistors" part="1k">
+      <description>RES 1K OHM 1% 1/16W 0402</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT1K00CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_resistors" part="330">
+      <description>RES 330 OHM 1% 1/16W 0402</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">311-330LRCT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_resistors" part="390">
+      <description>RES 390 OHM 1% 1/16W 0402</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">390</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT390RCT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_resistors" part="4.7k">
+      <description>RES 4.7K OHM 1% 1/16W 0402</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Part Number">RMCF0402FT4K70CT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_resistors" part="5.1k">
+      <description>RES 5.1K OHM 1% 1/16W 0402</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">311-5.10KLRCT-ND</field>
+        <field name="Size">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal_switch" part="FSM2JSMAA">
+      <description>SMD Momentary PushButton</description>
+      <docs>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=1371</docs>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">FSM2JSMAA</field>
+        <field name="Footprint">personal:SW_2-1437565-8</field>
+        <field name="Manufacturer">FSM2JSMAA</field>
+        <field name="Part Number">450-3355-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="teensy" part="Teensy-LC">
+      <docs>https://www.pjrc.com/teensy/teensyLC.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy-LC</field>
+        <field name="Footprint">personal:Teensy_LC</field>
+        <field name="Manufacturer">SparkFun Electronics</field>
+        <field name="Part Number">1568-1233-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="0_RX1_MOSI1_Touch" type="BiDi"/>
+        <pin num="3" name="1_TX1_MISO1_Touch" type="BiDi"/>
+        <pin num="4" name="2" type="BiDi"/>
+        <pin num="5" name="3_RX1_PWM_Touch" type="BiDi"/>
+        <pin num="6" name="4_TX1_PWM_Touch" type="BiDi"/>
+        <pin num="7" name="5_TX1_MISO1" type="BiDi"/>
+        <pin num="8" name="6_RX3_CS1_PWM" type="BiDi"/>
+        <pin num="9" name="7_RX3_MOSI0" type="BiDi"/>
+        <pin num="10" name="8_TX3_MISO0" type="BiDi"/>
+        <pin num="11" name="9_RX2_PWM" type="BiDi"/>
+        <pin num="12" name="10_TX2_CS0_PWM" type="BiDi"/>
+        <pin num="13" name="11_MOSI0" type="BiDi"/>
+        <pin num="14" name="12_MISO0" type="BiDi"/>
+        <pin num="15" name="17_Vin" type="output"/>
+        <pin num="16" name="3.3V" type="power_in"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="Program" type="input"/>
+        <pin num="19" name="26_A12/DAC" type="BiDi"/>
+        <pin num="20" name="13_LED_SCK0" type="BiDi"/>
+        <pin num="21" name="14_A0_SCK0" type="BiDi"/>
+        <pin num="22" name="15_A1_Touch" type="BiDi"/>
+        <pin num="23" name="16_A2_SCL0_PWM_Touch" type="BiDi"/>
+        <pin num="24" name="17_A3_SDA0_PWM_Touch" type="BiDi"/>
+        <pin num="25" name="18_A4_SDA0_Touch" type="BiDi"/>
+        <pin num="26" name="19_A5_SCL0_Touch" type="BiDi"/>
+        <pin num="27" name="20_A6_SCK1_PWM_TX3" type="BiDi"/>
+        <pin num="28" name="21_A7_MOSI1_RX1" type="BiDi"/>
+        <pin num="29" name="22_A8_SCL1_PWM_Touch" type="BiDi"/>
+        <pin num="30" name="23_A9_SDA1_PWM_Touch" type="BiDi"/>
+        <pin num="31" name="3.3V" type="power_out"/>
+        <pin num="32" name="GND" type="power_in"/>
+        <pin num="33" name="Vin" type="power_in"/>
+        <pin num="34" name="VUSB" type="power_in"/>
+        <pin num="35" name="AREF" type="input"/>
+        <pin num="36" name="24_A10" type="BiDi"/>
+        <pin num="37" name="25_A11" type="BiDi"/>
+        <pin num="39" name="D+" type="BiDi"/>
+        <pin num="40" name="D-" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="personal">
+      <uri>C:/Users/AaronN/Desktop/kicad personal lib/personal.lib</uri>
+    </library>
+    <library logical="personal_capacitors">
+      <uri>C:/Users/AaronN/Desktop/kicad personal lib/personal_capacitors.lib</uri>
+    </library>
+    <library logical="personal_chargers">
+      <uri>C:/Users/AaronN/Desktop/kicad personal lib/personal_chargers.lib</uri>
+    </library>
+    <library logical="personal_connectors">
+      <uri>C:/Users/AaronN/Desktop/kicad personal lib/personal_connectors.lib</uri>
+    </library>
+    <library logical="personal_fets">
+      <uri>C:/Users/AaronN/Desktop/kicad personal lib/personal_fets.lib</uri>
+    </library>
+    <library logical="personal_ldo">
+      <uri>C:/Users/AaronN/Desktop/kicad personal lib/personal_ldo.lib</uri>
+    </library>
+    <library logical="personal_leds">
+      <uri>C:/Users/AaronN/Desktop/kicad personal lib/personal_leds.lib</uri>
+    </library>
+    <library logical="personal_resistors">
+      <uri>C:/Users/AaronN/Desktop/kicad personal lib/personal_resistors.lib</uri>
+    </library>
+    <library logical="personal_switch">
+      <uri>C:/Users/AaronN/Desktop/kicad personal lib/personal_switch.lib</uri>
+    </library>
+    <library logical="teensy">
+      <uri>C:/Users/AaronN/Desktop/kicad personal lib/teensy.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="CN3" pin="P2"/>
+      <node ref="CN3" pin="P1"/>
+      <node ref="CN3" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="CN1" pin="A1/B12"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="17"/>
+      <node ref="U3" pin="4"/>
+      <node ref="CN1" pin="B1/A12"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U4" pin="32"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="CN2" pin="3"/>
+      <node ref="CN2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U1" pin="12"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="2" name="/I2C0_SCL">
+      <node ref="R15" pin="1"/>
+      <node ref="U4" pin="26"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="3" name="/I2C0_SDA">
+      <node ref="R16" pin="1"/>
+      <node ref="U4" pin="25"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="4" name="/GPS_TX">
+      <node ref="U1" pin="9"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="5" name="/GPS_RX">
+      <node ref="U1" pin="10"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="7" name="Net-(U4-Pad31)">
+      <node ref="U4" pin="31"/>
+    </net>
+    <net code="8" name="+3V3">
+      <node ref="C5" pin="1"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="U4" pin="35"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW3" pin="4"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U4" pin="16"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="9" name="Net-(U4-Pad15)">
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="10" name="Net-(U4-Pad34)">
+      <node ref="U4" pin="34"/>
+    </net>
+    <net code="11" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="12" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="13" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="14" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="15" name="Net-(U4-Pad18)">
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="16" name="Net-(U4-Pad19)">
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="17" name="Net-(U4-Pad20)">
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="18" name="Net-(R9-Pad1)">
+      <node ref="U4" pin="11"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="19" name="Net-(R10-Pad1)">
+      <node ref="U4" pin="12"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="20" name="/BAT_CHG_PWR">
+      <node ref="Q2" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="21" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="22" name="/GPS_PWR">
+      <node ref="R2" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U4" pin="23"/>
+    </net>
+    <net code="23" name="Net-(LED1-Pad4)">
+      <node ref="LED1" pin="4"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="25" name="Net-(CN2-Pad1)">
+      <node ref="U1" pin="11"/>
+      <node ref="CN2" pin="1"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="36" name="/USB2_N">
+      <node ref="U4" pin="40"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="37" name="/USB2_P">
+      <node ref="R6" pin="1"/>
+      <node ref="U4" pin="39"/>
+    </net>
+    <net code="38" name="/USB1_N">
+      <node ref="CN1" pin="B7"/>
+      <node ref="CN1" pin="A7"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="39" name="/USB1_P">
+      <node ref="CN1" pin="A6"/>
+      <node ref="R6" pin="2"/>
+      <node ref="CN1" pin="B6"/>
+    </net>
+    <net code="40" name="Net-(U4-Pad27)">
+      <node ref="U4" pin="27"/>
+    </net>
+    <net code="41" name="Net-(U4-Pad24)">
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="42" name="Net-(U4-Pad37)">
+      <node ref="U4" pin="37"/>
+    </net>
+    <net code="43" name="Net-(U4-Pad36)">
+      <node ref="U4" pin="36"/>
+    </net>
+    <net code="44" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="45" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="48" name="Net-(U4-Pad29)">
+      <node ref="U4" pin="29"/>
+    </net>
+    <net code="49" name="+4V2">
+      <node ref="C18" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="4"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="U4" pin="33"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="10"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="50" name="/OLED_PWR">
+      <node ref="Q5" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U4" pin="22"/>
+    </net>
+    <net code="51" name="/PWR_BTN">
+      <node ref="R20" pin="1"/>
+      <node ref="SW3" pin="3"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="U4" pin="21"/>
+    </net>
+    <net code="52" name="/BOT_BTN">
+      <node ref="R19" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="53" name="Net-(TP5-Pad1)">
+      <node ref="U4" pin="30"/>
+      <node ref="TP5" pin="1"/>
+    </net>
+    <net code="54" name="Net-(TP6-Pad1)">
+      <node ref="U4" pin="28"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="55" name="/TOP_BTN">
+      <node ref="SW1" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="56" name="Net-(R7-Pad1)">
+      <node ref="U3" pin="16"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="57" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="58" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="60" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="61" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="62" name="+BATT">
+      <node ref="U3" pin="3"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="CN3" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="63" name="Net-(CN1-PadA8)">
+      <node ref="CN1" pin="A8"/>
+    </net>
+    <net code="64" name="Net-(CN1-PadB8)">
+      <node ref="CN1" pin="B8"/>
+    </net>
+    <net code="65" name="Net-(C1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="CN1" pin="S"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="66" name="Net-(CN1-PadA5)">
+      <node ref="CN1" pin="A5"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="67" name="Net-(CN1-PadB5)">
+      <node ref="R4" pin="2"/>
+      <node ref="CN1" pin="B5"/>
+    </net>
+    <net code="68" name="VBUS">
+      <node ref="U3" pin="6"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="CN1" pin="A4/B9"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="CN1" pin="B4/A9"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="69" name="Net-(Q4-Pad3)">
+      <node ref="R14" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="70" name="Net-(Q3-Pad3)">
+      <node ref="Q4" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="71" name="Net-(LED1-Pad3)">
+      <node ref="LED1" pin="3"/>
+    </net>
+    <net code="72" name="Net-(LED1-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="LED1" pin="1"/>
+    </net>
+    <net code="73" name="Net-(LED1-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="LED1" pin="2"/>
+    </net>
+    <net code="74" name="/BAT_CHG">
+      <node ref="Q3" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="75" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+  </nets>
+</export>

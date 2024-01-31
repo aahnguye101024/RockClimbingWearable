@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 2021-11-05_07-22-48)(type Legacy)(uri "C:/Users/AaronN/Downloads/ul_MIC5528-3-3YMX-TR (1)/KiCAD/2021-11-05_07-22-48/2021-11-05_07-22-48.lib")(options "")(descr ""))
+  (lib (name Climbing_Main_Rev_A-rescue)(type Legacy)(uri ${KIPRJMOD}/Climbing_Main_Rev_A-rescue.lib)(options "")(descr ""))
+)
